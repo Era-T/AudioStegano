@@ -8,3 +8,13 @@ C:\Users\erata\source\repos\Steganography_Wav\obj\Debug\Steganography_Wav.csproj
 C:\Users\erata\source\repos\Steganography_Wav\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
 C:\Users\erata\source\repos\Steganography_Wav\obj\Debug\Steganography_Wav.exe
 C:\Users\erata\source\repos\Steganography_Wav\obj\Debug\Steganography_Wav.pdb
+C:\Users\iilir\OneDrive\Desktop\steganography\bin\Debug\Steganography_Wav.exe.config
+C:\Users\iilir\OneDrive\Desktop\steganography\bin\Debug\Steganography_Wav.exe
+C:\Users\iilir\OneDrive\Desktop\steganography\bin\Debug\Steganography_Wav.pdb
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.csprojAssemblyReference.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.Form1.resources
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.Properties.Resources.resources
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.csproj.GenerateResource.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.exe
+C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.pdb
