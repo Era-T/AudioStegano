@@ -20,9 +20,8 @@ Siguria dhe qëndrueshmëria e komunikimit janë jetike për transmetimin e info
 Duke ngulitur informacione sekrete duke përdorur një sinjal audio si mjet mbulimi, ekzistenca e informacionit sekret fshihet gjatë komunikimit.
 Në një sistem steganografie audio të bazuar në kompjuter, mesazhet sekrete janë ngulitur në tingull dixhital.
 Mesazhi sekret është ngulitur duke ndryshuar pak sekuencën binare të një skedari zanor.
-Ne rastin tone eshte bere fshehja e informates ne wav file format.
 
-### Implementimi:
+
 Implementimi i programit tone eshte bere ne gjuhen programuese C#, duke u bazuar ne wave file layout sic shihet edhe ne figure. <br/>
 http://soundfile.sapp.org/doc/WaveFormat/
 
