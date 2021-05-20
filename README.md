@@ -1,7 +1,7 @@
-# AudioStegano
-# Universiteti i Prishtines 
 
-## Drejtimi: Inxhinieri Kompjuterike
+### Universiteti i Prishtines 
+
+### Drejtimi: Inxhinieri Kompjuterike
 
 ### Tema: Fshehja e informates ne audio file (.wav)
 
