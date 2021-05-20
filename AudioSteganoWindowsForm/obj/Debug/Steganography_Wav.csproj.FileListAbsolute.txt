@@ -18,3 +18,13 @@ C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.csproj
 C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
 C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.exe
 C:\Users\iilir\OneDrive\Desktop\steganography\obj\Debug\Steganography_Wav.pdb
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\bin\Debug\Steganography_Wav.exe.config
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\bin\Debug\Steganography_Wav.exe
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\bin\Debug\Steganography_Wav.pdb
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.csprojAssemblyReference.cache
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.Form1.resources
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.Properties.Resources.resources
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.csproj.GenerateResource.cache
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.exe
+C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.pdb

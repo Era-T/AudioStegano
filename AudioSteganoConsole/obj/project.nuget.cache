@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "o12tM+PWE8RvMcqey9TtgcxKLEfJTAHZOJLckijUuOdsNGpnXTQsTyfxvhAklPQPOql3rH47pBTJkw3uDHzT4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Dropbox\\My PC (DESKTOP-O50J359)\\Desktop\\Steganografia\\AudioSteganoConsole\\AudioSteganographyConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
