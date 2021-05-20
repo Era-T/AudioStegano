@@ -14,7 +14,7 @@
 #### Studentet: Blerina Haziri, Era Tahiri, Fjoralba Krasniqi
 
 
-### Abstrakt:
+### Pershkrim:
 Audio Steganografia është e përqendruar në fshehjen e informacionit sekret në një fajll ose sinjal audio në mënyrë të sigurt.
 Siguria dhe qëndrueshmëria e komunikimit janë jetike për transmetimin e informacionit për subjektet e autorizuara, ndërsa u mohohet hyrja atyre që nuk janë të autorizuar.
 Duke ngulitur informacione sekrete duke përdorur një sinjal audio si mjet mbulimi, ekzistenca e informacionit sekret fshihet gjatë komunikimit.
