@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "AudioSteganographyConsole/1.0.0": {
+      "SteganographyConsole/1.0.0": {
         "runtime": {
-          "AudioSteganographyConsole.dll": {}
+          "SteganographyConsole.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AudioSteganographyConsole/1.0.0": {
+    "SteganographyConsole/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.exe
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.deps.json
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.runtimeconfig.json
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.dll
+C:\Users\Admin\source\repos\SteganographyConsole\bin\Debug\netcoreapp3.1\SteganographyConsole.pdb
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.AssemblyInfo.cs
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.dll
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.pdb
+C:\Users\Admin\source\repos\SteganographyConsole\obj\Debug\netcoreapp3.1\SteganographyConsole.genruntimeconfig.cache

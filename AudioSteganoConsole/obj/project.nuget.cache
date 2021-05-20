@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XpWA+Inx76BfDClx5DvKUk4Bw/sL7vRdatZPHiqxx/mPeYic2Nj/p3M5uU7NdyULZtrcaKKfR/C7v4/4SLW0nA==",
+  "dgSpecHash": "ORqEC1LuOBos/dKJmWj+4UqVQnDNX3gaduP3mnny70+ImUuEV+fpjRkqVD4ZpBoUTsUSuWhVGdJ768Ay7LyOSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erata\\OneDrive\\Desktop\\AudioStegano\\AudioSteganoConsole\\AudioSteganographyConsole.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\erata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
