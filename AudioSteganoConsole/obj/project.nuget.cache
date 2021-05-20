@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ORqEC1LuOBos/dKJmWj+4UqVQnDNX3gaduP3mnny70+ImUuEV+fpjRkqVD4ZpBoUTsUSuWhVGdJ768Ay7LyOSw==",
+  "dgSpecHash": "d46eKFSJZHF0fEZR5dQleHlcDtkktzrTsKXpCGX3/O8a0ccpzjvDh7ExZZagMkQqibgqSedZrg2q/XeMhgLxiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\SteganographyConsole.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj": {}
+    "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\SteganographyConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj": {
+    "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\SteganographyConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj",
+        "projectUniqueName": "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\SteganographyConsole.csproj",
         "projectName": "SteganographyConsole",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\SteganographyConsole.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\SteganographyConsole\\obj\\",
+        "projectPath": "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\SteganographyConsole.csproj",
+        "packagesPath": "C:\\Users\\iilir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iilir\\OneDrive\\Desktop\\steganography\\AudioSteganoConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iilir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,16 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

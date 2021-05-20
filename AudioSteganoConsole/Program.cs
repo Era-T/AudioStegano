@@ -14,12 +14,13 @@ namespace SteganographyConsole
     class Program
     { 
             static void Main(string[] args)
+
             {
+
                 Console.Write("\nEnter wav file path: ");
                 string sourcePath = Console.ReadLine();
-
-
                 String ReadWavFile1 = ReadWavFile(sourcePath);
+
                 //Console.WriteLine("Path: " + ReadWavFile1);
                 Console.Write("Would you like to hide the information ? ");
                 string answer;
@@ -33,6 +34,7 @@ namespace SteganographyConsole
                     Console.WriteLine("You didn't want to hide the information");
                 }
                 Console.Write("Would you like to know the information ? ");
+
                 string ans;
                 ans = Console.ReadLine();
                 String p;
@@ -40,44 +42,36 @@ namespace SteganographyConsole
                 if (ans.ToLower() == "yes")
                 {
                     Console.WriteLine(ReadInfo(p));
-
                 }
                 else
                 {
                 Console.WriteLine("You didn't want to know the information");
-
                 }
-
             }
 
-            private static System.Byte[] bufferInternal_uint8 = null;
-            private static System.Int16[] bufferInternal_int16 = null;
+
+            private static Byte[] bufferInternal_uint8 = null;
+            private static Int16[] bufferInternal_int16 = null;
             private static byte[] data = null;
-            private static System.UInt32 _numberOfSamples;
-            public static System.UInt32 NumberOfSamples
-            {
-                get { return _numberOfSamples; }
-                set { _numberOfSamples = value; }
-            }
 
-            // WAV file header fields.
-            private static byte[] chunk_id = new Byte[4];       // This are char[] in the C sense, one byte each.
+            private static UInt32 _numberOfSamples;
+            private static byte[] chunk_id = new Byte[4];       
             private static System.UInt32 chunk_size;
-            private static byte[] format = new Byte[4];         //    "
-            private static byte[] fmtchunk_id = new Byte[4];    //    "
+            private static byte[] format = new Byte[4];         
+            private static byte[] fmtchunk_id = new Byte[4];    
             private static System.UInt32 fmtchunk_size;
             private static System.UInt16 audio_format;
             private static System.UInt16 num_channels;
             private static System.UInt32 sample_rate;
             private static System.UInt32 byte_rate;
             private static System.UInt16 block_align;
-            private static System.UInt16 bps;                    //Bits per sample 
-            private static byte[] datachunk_id = new Byte[4];    // This are char[] in the C sense, one byte each.
+            private static System.UInt16 bps;                    
+            private static byte[] datachunk_id = new Byte[4];    
             private static System.UInt32 datachunk_size;
+
             private static String globalFilePath = "";
             static byte[] byteText = Encoding.UTF8.GetBytes("FIEK");
             const int C_HEADER_BYTE_SIZE = 44;
-
 
             public enum NUM_CHANNELS
             {
@@ -91,7 +85,6 @@ namespace SteganographyConsole
                 BPS_8_BITS = 8,
                 BPS_16_BITS = 16
             };
-
 
             static string ReadWavFile(String _Path)
             {
@@ -108,23 +101,22 @@ namespace SteganographyConsole
                 using (BinaryReader reader = new BinaryReader(File.Open(file_path, FileMode.Open)))
                 {
                     // Read WAV file header fields.
-                    chunk_id = reader.ReadBytes(4);   // Byte[]
+                    chunk_id = reader.ReadBytes(4);   
                     chunk_size = reader.ReadUInt32();
-                    format = reader.ReadBytes(4);   // Byte[]
-                    fmtchunk_id = reader.ReadBytes(4);   // Byte[]
+                    format = reader.ReadBytes(4);  
+                    fmtchunk_id = reader.ReadBytes(4);   
                     fmtchunk_size = reader.ReadUInt32();
                     audio_format = reader.ReadUInt16();
                     num_channels = reader.ReadUInt16();
                     sample_rate = reader.ReadUInt32();
                     byte_rate = reader.ReadUInt32();
                     block_align = reader.ReadUInt16();
-                    bps = reader.ReadUInt16();   //Bits per sample 
-                    datachunk_id = reader.ReadBytes(4);   // Byte[]
+                    bps = reader.ReadUInt16();   
+                    datachunk_id = reader.ReadBytes(4);   
                     datachunk_size = reader.ReadUInt32();
 
-                    // File type validations.
-                    if (System.Text.Encoding.ASCII.GetString(chunk_id) != "RIFF"
-                        || System.Text.Encoding.ASCII.GetString(format) != "WAVE")
+                    
+                    if (System.Text.Encoding.ASCII.GetString(chunk_id) != "RIFF" || System.Text.Encoding.ASCII.GetString(format) != "WAVE")
                     {
                         throw new ApplicationException("ERROR: File " + file_path + " is not a WAV file");
                     }
@@ -141,11 +133,11 @@ namespace SteganographyConsole
                             break;
 
                         case BITS_PER_SAMPLE.BPS_16_BITS:
-                            // Note: To make the following convertion from byte[] to int16[] I could make unsafe code
-                            //       and a simple cast but i'm trying to not make unsafe code.
+
                             int num_int16 = (int)(datachunk_size / sizeof(System.Int16));
                             bufferInternal_int16 = new System.Int16[num_int16];
                             byte[] two_byte_buf_to_int16;
+
                             for (int i = 0; i < num_int16; i++)
                             {
                                 two_byte_buf_to_int16 = reader.ReadBytes(2);
@@ -241,10 +233,7 @@ namespace SteganographyConsole
             {
                 StringBuilder sb = new StringBuilder();
 
-
-
                 var filePath = path;
-
 
                 using (BinaryReader reader = new BinaryReader(File.Open(filePath, FileMode.Open)))
                 {
@@ -300,8 +289,6 @@ namespace SteganographyConsole
 
                     return sb.ToString();
                 }
-
-
 
             }
         

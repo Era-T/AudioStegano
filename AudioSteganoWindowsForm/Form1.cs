@@ -16,24 +16,24 @@ namespace Steganography_Wav
     {
         SoundPlayer player;
 
-        private System.Byte[] bufferInternal_uint8 = null;
-        private System.Int16[] bufferInternal_int16 = null;
+        private Byte[] bufferInternal_uint8 = null;
+        private Int16[] bufferInternal_int16 = null;
         private byte[] data = null;
 
-        private System.UInt32 _numberOfSamples;
+        private UInt32 _numberOfSamples;
         private byte[] chunk_id = new Byte[4];
-        private System.UInt32 chunk_size;
+        private UInt32 chunk_size;
         private byte[] format = new Byte[4];
         private byte[] fmtchunk_id = new Byte[4];
-        private System.UInt32 fmtchunk_size;
-        private System.UInt16 audio_format;
-        private System.UInt16 num_channels;
-        private System.UInt32 sample_rate;
-        private System.UInt32 byte_rate;
-        private System.UInt16 block_align;
-        private System.UInt16 bps;
+        private UInt32 fmtchunk_size;
+        private UInt16 audio_format;
+        private UInt16 num_channels;
+        private UInt32 sample_rate;
+        private UInt32 byte_rate;
+        private UInt16 block_align;
+        private UInt16 bps;
         private byte[] datachunk_id = new Byte[4];
-        private System.UInt32 datachunk_size;
+        private UInt32 datachunk_size;
 
         private String globalFilePath = "";
 
@@ -125,8 +125,7 @@ namespace Steganography_Wav
 
                             bufferInternal_uint8 = reader.ReadBytes((int)datachunk_size);
                             data = bufferInternal_uint8;
-                            _numberOfSamples = datachunk_size / num_channels;
-
+                            
                             break;
 
 
@@ -143,7 +142,6 @@ namespace Steganography_Wav
                                 bufferInternal_int16[i] = BitConverter.ToInt16(two_byte_buf_to_int16, 0);
                             }
 
-                            _numberOfSamples = (datachunk_size / 2) / num_channels;
                             break;
 
                         default:

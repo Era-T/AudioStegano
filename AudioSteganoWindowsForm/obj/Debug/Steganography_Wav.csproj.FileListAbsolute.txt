@@ -28,3 +28,13 @@ C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\S
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.exe
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\obj\Debug\Steganography_Wav.pdb
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\bin\Debug\Steganography_Wav.exe.config
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\bin\Debug\Steganography_Wav.exe
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\bin\Debug\Steganography_Wav.pdb
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.csprojAssemblyReference.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.Form1.resources
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.Properties.Resources.resources
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.csproj.GenerateResource.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.csproj.CoreCompileInputs.cache
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.exe
+C:\Users\iilir\OneDrive\Desktop\steganography\AudioSteganoWindowsForm\obj\Debug\Steganography_Wav.pdb
