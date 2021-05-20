@@ -28,6 +28,8 @@ namespace AudioSteganographyConsole
             {
                 HideInfo(sourcePath);
             }
+            
+
             else
             {
                 Console.WriteLine("You didn't want to hide the information in the wav file");
@@ -37,7 +39,18 @@ namespace AudioSteganographyConsole
             ans = Console.ReadLine();
             String p;
             p = HideInfo(sourcePath);
+            if (ans.ToLower() == "yes")
+            {
+                Console.WriteLine(ReadInfo(p));
+            }
+            else
+            {
+                Console.WriteLine("You didn't want to know the hidden information");
+            }
+
+
         }
+
 
         private static System.Byte[] bufferInternal_uint8 = null;
         private static System.Int16[] bufferInternal_int16 = null;
@@ -225,6 +238,73 @@ namespace AudioSteganographyConsole
                 }
             }
             return filePath;
+        }
+        static string ReadInfo(String path)
+        {
+            StringBuilder sb = new StringBuilder();
+
+
+
+            var filePath = path;
+
+
+            using (BinaryReader reader = new BinaryReader(File.Open(filePath, FileMode.Open)))
+            {
+                // Read WAV file header fields.
+                var new_chunk_id = reader.ReadBytes(4);
+                var new_chunk_size = reader.ReadUInt32();
+                var new_format = reader.ReadBytes(4);
+                var new_fmtchunk_id = reader.ReadBytes(4);
+                var new_fmtchunk_size = reader.ReadUInt32();
+                var new_audio_format = reader.ReadUInt16();
+                var new_num_channels = reader.ReadUInt16();
+                var new_sample_rate = reader.ReadUInt32();
+                var new_byte_rate = reader.ReadUInt32();
+                var new_block_align = reader.ReadUInt16();
+                var new_bps = reader.ReadUInt16();
+                var new_datachunk_id = reader.ReadBytes(4);
+                var new_datachunk_size = reader.ReadUInt32();
+
+                // File type validations.
+                if (System.Text.Encoding.ASCII.GetString(chunk_id) != "RIFF"
+                    || System.Text.Encoding.ASCII.GetString(format) != "WAVE")
+                {
+                    throw new ApplicationException("ERROR: File " + filePath + " is not a WAV file");
+                }
+                if (audio_format != 1)
+                {
+                    throw new ApplicationException("ERROR: File " + filePath + " the API only supports PCM format in WAV.");
+                }
+
+
+                int num_int16 = (int)(datachunk_size / sizeof(System.Int16));
+                var new_bufferInternal_int16 = new System.Double[num_int16];
+                byte[] two_byte_buf_to_int16;
+
+                for (int i = 0; i < num_int16; i++)
+                {
+                    double byteFromText = 0.0;
+                    if (i < byteText.Length)
+                    {
+                        two_byte_buf_to_int16 = reader.ReadBytes(8);
+                        new_bufferInternal_int16[i] = BitConverter.ToDouble(two_byte_buf_to_int16, 0);
+                        var hiddenValue = new_bufferInternal_int16[i] - bufferInternal_int16[i];
+                        var hiddenValueToByte = Math.Round(hiddenValue, 3) * 1000.00;
+                        var word = (char)hiddenValueToByte;
+                        sb.Append(word);
+                    }
+                    else
+                    {
+                        two_byte_buf_to_int16 = reader.ReadBytes(2);
+                        new_bufferInternal_int16[i] = BitConverter.ToInt16(two_byte_buf_to_int16, 0);
+                    }
+                }
+
+                return sb.ToString();
+            }
+
+
+
         }
 
     }

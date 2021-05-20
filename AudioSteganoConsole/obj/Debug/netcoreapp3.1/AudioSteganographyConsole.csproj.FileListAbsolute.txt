@@ -24,3 +24,16 @@ C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\AudioStegan
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.dll
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.pdb
 C:\Users\Admin\Dropbox\My PC (DESKTOP-O50J359)\Desktop\Steganografia\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.genruntimeconfig.cache
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.exe
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.deps.json
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.runtimeconfig.json
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.runtimeconfig.dev.json
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.dll
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\bin\Debug\netcoreapp3.1\AudioSteganographyConsole.pdb
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.csprojAssemblyReference.cache
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.AssemblyInfoInputs.cache
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.AssemblyInfo.cs
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.csproj.CoreCompileInputs.cache
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.dll
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.pdb
+C:\Users\erata\OneDrive\Desktop\AudioStegano\AudioSteganoConsole\obj\Debug\netcoreapp3.1\AudioSteganographyConsole.genruntimeconfig.cache
